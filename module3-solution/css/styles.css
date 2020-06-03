@@ -1,1 +1,69 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+}
+
+h1 {
+	font-family: Stencil Std, fantasy;
+	color: black;
+}
+p {
+	padding: 10px;
+	margin: 0;
+}
+section {
+	width: 100%;
+	height: auto;
+	color: white;
+	position: relative;
+	overflow: auto;
+}
+#chicken {
+	background-color: #D2691E;
+	font-family: 'Comic Sans Ms';
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#beef {
+	background-color: #D2691E;
+	font-family: 'Comic Sans Ms';
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#sushi {
+	background-color: #D2691E;
+	font-family: 'Comic Sans Ms';
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* start header */
+#header-nav {
+	background-color: #A52A2A;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+.navbar-brand p {
+	color: white;
+	font-size: 32px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #D2691E;
+/* end header*/
+
 
